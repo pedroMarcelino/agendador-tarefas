@@ -1,6 +1,5 @@
-package com.marcelino.usuario.business.dto;
+package com.marcelino.agendadortarefas.business.dto;
 
-import jakarta.persistence.Column;
 import lombok.*;
 
 import java.util.List;
@@ -10,11 +9,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UsuarioDTO {
 
-    private String nome;
+public class UsuarioDTO {
     private String email;
     private String senha;
-    private List<EnderecoDTO> enderecos;
-    private List<TelefoneDTO> telefones;
 }
